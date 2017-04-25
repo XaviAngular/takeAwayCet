@@ -1,0 +1,449 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	  <meta charset="UTF-8">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- Afegim el nostre propi full d'estils -->
+		 <link type="text/css" rel="stylesheet" href="css/styles.css"  media="screen,projection"/>
+    </head>
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	  <script>
+		$( document ).ready(function(){
+			$(".button-collapse").sideNav();
+			$('.modal').modal();
+			$('#modal1').modal('open');
+		})
+	  </script>
+	  <header>
+		<nav>
+			<div class="nav-wrapper">
+			  <a href="#!" class="brand-logo">TakeAway</a>
+			  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+			  <!-- Navegació per pantalles grans -->
+			  <ul class="right hide-on-med-and-down">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="menus.html">Menús</a></li>
+				<li><a href="comoHacemos.html">Así se hace</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			  </ul>
+			  <ul class="side-nav" id="mobile-demo">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="menus.html">Menús</a></li>
+				<li><a href="comoHacemos.html">Así se hace</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			  </ul>
+			</div>
+		  </nav>
+	  </header>
+	  <main>
+	  <h2>Entrantes</h2>
+	  <!-- Comienzan los entrantes -->
+		<div class="row">
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/entrante1.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Patatas Bravas<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">4,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Patatas Bravas<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/entrante2.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Chipirones<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">5,00 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Chipirones<i class="material-icons right">close</i></span>
+					  <p>Chipirones directos del puerto de Cádiz, siempre deliciosos</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/entrante3.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Calamares Rellenos<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">5,80 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Calamares Rellenos<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+			<div class="col l3 m6 s12">
+			<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/entrante4.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Calamares Rellenos<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">8,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Croquetas de Jamón<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+		</div>
+		<h2>Tapas</h2>
+	  <!-- Comienzan las tapas -->
+		<div class="row">
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/canelones_espinacas.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Canelones Espinacas<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">3,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Canelones Espinacas<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/ensalada_arroz.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Ensalada Arroz<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">2,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Ensalada Arroz<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/focaccia.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Focaccia<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">4,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Focaccia<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/tortilla_calabacin.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Tortilla Calabacin<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">1,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Tortilla Calabacin<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+		</div>
+		  <h2>Postres</h2>
+	  <!-- Comienzan los Postres -->
+		<div class="row">
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/kiwi_naranja.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Kiwi con naranja<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">2,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Kiwi con naranja<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/crumble.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Crumble<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">4,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Crumble<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/fresa_arandano.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Pastel Fresas y Arándanos<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">4,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Pastel Fresas y Arándanos<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+			<div class="col l3 m6 s12">
+				<!-- Comienzo Card -->				
+				<div class="card">
+					<div class="card-image waves-effect waves-block waves-light">
+					  <img class="activator" alt="Patas Bravas" title="Patatas Bravas" src="img/volcan_chocolate.jpg">
+					</div>
+					<div class="card-content">			
+					  <span class="card-title activator grey-text text-darken-4">Volcán Chocolate<i class="material-icons right">more_vert</i></span>
+					  <p><span class="precio">4,50 €/ración</span></p>
+					  <!-- Comienza botón carrito -->
+					<div class="fixed-action-btn horizontal carrito">
+						<a class="btn-floating btn-large red">
+						  <i class="large material-icons">shopping_basket</i>
+						</a>
+						<ul>
+						  <li><a class="btn-floating red darken-4">4x</a></li>
+						  <li><a class="btn-floating red darken-3">3x</a></li>
+						  <li><a class="btn-floating red darken-2">2x</a></li>
+						  <li><a class="btn-floating red darken-1">1x</a></li>
+						</ul>
+						</div>
+						<!-- fin botón carrito -->
+					</div>
+					<div class="card-reveal">
+					  <span class="card-title grey-text text-darken-4">Volcán Chocolate<i class="material-icons right">close</i></span>
+					  <p>Deliciosas patatas bravas junto con nuestra famosa salsa picante hacen que sea un placer comerlas.</p>
+					</div>
+				</div>
+				<!-- Final Card -->
+			</div>
+		</div>
+<!-- Modal Structure -->
+  <div id="modal1" class="modal orange lighten-3">
+    <div class="modal-content">
+      <h4>Apúntate a nuestra Newsletter</h4>
+      <p>¡Ofertas y descuentos exclusivos para nuestros subscriptores!</p>
+	  <form id="newsletter" action="php/recibeNews.php" method="POST">
+	  <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+        <input name="nombre" id="nombre" type="text" class="validate" value="Xavi Garcia" required>
+        <label for="nombre">Nombre y Apellido</label>
+    </div>
+		<div class="input-field col s12">
+          <i class="material-icons prefix">email</i>
+        <input name="email" id="email" type="email" class="validate" value="mail@mailejemplo.com" required>
+        <label for="email">E-mail</label>
+    </div>
+	<div class="col s12">
+		<button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+		<i class="material-icons right">send</i>
+		</button>
+	</div>
+	  </form>
+    </div>
+    <div class="modal-footer orange lighten-4">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ahora no</a>
+    </div>
+  </div>
+	  </main>	  
+    </body>
+  </html>
+        
